@@ -3,7 +3,7 @@
 This repository contains the code to generate, post-process and visualize the results presented in Lars Talsma’s Master thesis named “Continuous Distribution of Entanglement in Quantum  Networks with Regular Topologies.” 
 
 ## Quantum network topology
-We investigate the performance of a protocol that continuously distributes entangled states between quantum nodes in networks with a physical node degree $`k_{\mathrm{p}}`$. This means that each quantum node shares physical channels with $`k_{\mathrm{p}}`$ other nodes, such that a chain, honeycomb lattice, square grid and triangular lattice structure emerges for `$k_{\mathrm{p}}=2,3,4,6`$, respectively. 
+We investigate the performance of a protocol that continuously distributes entangled states between quantum nodes in networks with a physical node degree $`k_{\mathrm{p}}`$. This means that each quantum node shares physical channels with $`k_{\mathrm{p}}`$ other nodes, such that a chain, honeycomb lattice, square grid and triangular lattice structure emerges for $`k_{\mathrm{p}}=2,3,4,6`$, respectively. 
 
 ## Quantum network model and dynamics
 The number of entangled states between nodes, so-called entangled links, evolves as quantum nodes create new links through (1) entanglement generation and (2) entanglement swaps, and (3) remove low-fidelity links. The nodes probabilistically attempt swaps and can maximise the performance metrics by varying this probability. In particular, we assume that the quantum networks are homogeneous, such that:
