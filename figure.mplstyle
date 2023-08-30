@@ -1,0 +1,48 @@
+figure.dpi : 300
+
+font.family : sans-serif
+font.sans-serif : Helvetica #, Computer Modern Sans Serif
+text.usetex: TRUE
+text.latex.preamble: \usepackage{mathtools} \usepackage{sansmath}\sansmath \usepackage{mleftright}
+
+font.size: 10
+
+lines.markersize : 6
+lines.linewidth : 1.4 
+
+axes.edgecolor: 4d4d4d
+axes.labelcolor: (0, 0, 0, 0.8)
+axes.titlesize : 10
+axes.labelsize : 10
+axes.linewidth: 0.8 #.2
+axes.spines.right: False
+axes.spines.top: False
+
+xtick.labelsize : 10
+ytick.labelsize : 10
+xtick.color: 4d4d4d
+xtick.labelcolor: (0, 0, 0, 0.8)
+ytick.color: 4d4d4d
+ytick.labelcolor: (0, 0, 0, 0.8)
+xtick.major.size: 4
+ytick.major.size: 4
+xtick.major.width: 0.8 #.2
+ytick.major.width: 0.8 #.2
+xtick.minor.size: 3 #3
+ytick.minor.size: 3 #3
+xtick.minor.width: 0.8 #.2
+ytick.minor.width: 0.8 #.2
+
+#xtick.major.pad: 15
+#xtick.minor.pad: 15
+#ytick.major.pad: 15
+#ytick.minor.pad: 15
+
+xtick.direction: in
+ytick.direction: in
+
+legend.frameon: False
+legend.borderpad: 0.1
+legend.labelspacing: 0.2
+
+# figure.figsize: 8, 5
